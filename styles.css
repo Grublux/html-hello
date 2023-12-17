@@ -1,0 +1,107 @@
+body{
+    background: white;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightgray;
+
+}
+
+.header {
+    margin: 0  auto;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 500px;
+    background-color: white;
+}
+
+
+.main_flex {
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;    
+    //flex-grow: 1;
+    margin: 30px auto;
+    
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    background: white;
+    text-align: center;
+    
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+    text-align: center;
+}
+
+.three {
+    background: purple;
+    text-align: center;
+}
+
+.photo_header {
+    width: 99%;
+    background-color: white;
+    margin: 5px auto;
+}
+
+img {
+    margin: auto;
+    object-fit: contain;
+    max-width:100%;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    padding: 1px 0;
+}
+
+.photo_footer {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%
+    margin: auto;
+}
+
+.photo_title {
+    float: left;
+    margin: 5px;
+    padding: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+.photo_date {
+    float: right;
+    margin: 5px;
+    padding: 3px;
+    border: none;
+    color: gray;
+}
